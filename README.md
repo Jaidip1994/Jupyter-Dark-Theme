@@ -67,8 +67,18 @@ jtplot.style(ticks=True, grid=False, figsize=(6, 4.5))
 jtplot.reset()
 ```
 
-Pro-tip: Include the following two lines in ```~/.ipython/profile_default/startup/startup.ipy``` file to set plotting style automatically whenever you start a notebook:
+Pro-tip: Include the following two lines in ```~/.ipython/profile_default/startup/startup.ipy``` file to set plotting style automatically whenever you start a notebook, so need of writing these lines on every startup:
 
 ![File Directory in Windows](/Images/StartupFileLocation.png)
 
+```python
+# in my case 
+# import jtplot submodule from jupyterthemes
+from jupyterthemes import jtplot
 
+# set the parameters what you need
+jtplot.style(theme='monokai',spines=False, gridlines='--')
+```
+
+So the notebook now looks like
+![File Directory in Windows](/Images/JupyterNotebook.png)
