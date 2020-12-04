@@ -22,7 +22,7 @@ pip install --upgrade jupyterthemes
 
 ## Now in Jupyter Notebook
 ```python
-!jt -t monokai -f fira -fs 11 -nf ptsans -nfs 13 -N -kl -cursw 2 -cursc r -cellw 97% -T -dfs 10
+!jt -t monokai -f fira -fs 11 -nf ptsans -nfs 13 -N -kl -cursw 2 -cursc r -cellw 97% -T -dfs 10 -ofs 10
 
 # You can find more details in the Package Github link
 # What are the arguments and whats its for
@@ -39,6 +39,7 @@ pip install --upgrade jupyterthemes
 # -cellw    Cell Width
 # -T        Toolbar Visible
 # -dfs      Pandas DF Fontsize
+# -ofs      Output Area Fontsize
 ```
 
 ## How to use custom plots
